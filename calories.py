@@ -12,8 +12,6 @@ for line in f:
         line = line.strip("\n")
         currentElf.append(line)
  
-
-
 maxElfs = [0,0,0]
 
 

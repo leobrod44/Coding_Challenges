@@ -3,7 +3,6 @@ import numpy
 file =  open('data.txt', 'r')
 f = [x.replace('\n','') for x in file.readlines()]
 sections = [[y.split('-') for y in x.split(',')] for x in f]
-
 print(sections)
 count = 0
 for case in sections:
